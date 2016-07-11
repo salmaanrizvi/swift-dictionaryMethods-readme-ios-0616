@@ -77,8 +77,6 @@ if let fastMovies = movies["The Fast and the Furious"] {
     }
 }
 
-
-
 // DELETING KEY/VALUE PAIRS
 
 movies["The Fast and the Furious"] = nil
@@ -90,8 +88,6 @@ if let fast3rFilms = movies["The Fast and the Furious"] {
 }
 
 movies.removeValueForKey("The Fast and the Furious")
-
-
 
 // COUNTING ITEMS
 
@@ -130,8 +126,6 @@ if emptyDictionary.isEmpty {
     print("There's something here...")
 }
 
-
-
 // RETRIEVING KEYS
 
 let planetNames = Array(planetsAndTheirMoons.keys)
@@ -139,8 +133,6 @@ let planetNames = Array(planetsAndTheirMoons.keys)
 for planet in planetsAndTheirMoons.keys {
     print(planet)
 }
-
-
 
 // RETRIEVING VALUES
 
